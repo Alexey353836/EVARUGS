@@ -1,0 +1,136 @@
+@media screen and (max-width: 1200px) {
+    /* Общие блоки */
+    .container-main{
+        /* max-width: 790px; */
+    }
+
+    /* Header */
+    .header__container{
+        padding: 26px 20px;
+    }
+     .header__box-nambers{
+        flex-direction: column;
+        gap:5px
+    }
+    .header__box-nambers a{
+        font-size: 14px;
+    }
+    .city input{
+        padding: 5px;
+        width: initial;
+     }
+    .header__visit-page{
+        display: flex;
+        align-items:center;
+        gap: 10px;
+    }
+    .header__visit-page img{
+        width: 26px;
+    }
+    .header__visit-page p{
+        font-size: 17px;
+    }
+
+    /* Hero */
+    .hero__container {
+        padding: 52px 20px 0px;
+    }
+    .logo {
+        display: flex;
+        align-items:center;
+        gap: 24px;
+    }
+    .menu{
+        display: none;
+    }
+    /* Hero block */
+    .hero__block::after{
+        height: 486px;
+    }
+    /* Hero text */
+    .hero__title {
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 414px;
+        margin-top: 73px;
+    }
+    /* Hero batton */
+    .btn {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width:700px) {
+     /* Общие блоки */
+     .container-main{
+        /* max-width: 320px; */
+    }
+
+    /* Header */
+    .header__container{
+        flex-direction: column;
+        padding: 22px 0px;
+    }
+    .header__icon-contact-phones{
+      display: none;
+    }
+    .city button{
+        display: none;
+    }
+    .city input{
+        text-align: center;
+        font-size: 16px;
+     }
+    .city input::placeholder{
+        text-align: center;
+        font-size: 16px;
+    }
+    .header__visit-page{
+        display: none;
+    }
+
+    /* Hero */
+    .hero__container {
+        padding: 26px 0px 53px;
+    }
+    .hero__top {
+        justify-content: center;
+    }
+    .logo {
+        gap: 9px;
+    }
+    .logo__img {
+        width: 60px;
+    }
+    .logo__text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    /* Hero block */
+.hero__block-flex{
+    justify-content: center;
+}
+    .hero__block-flex::after{
+       display: none;
+    }
+    /* Hero text */
+    .hero__title {
+        font-size: 25px;
+        line-height: 25px;
+        max-width: 414px;
+        margin-top: 33px;
+        text-align: center;
+    }
+    .hero__subtitle {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /* Jero button */
+    .hero__button{
+        text-align: center;
+    }
+}
