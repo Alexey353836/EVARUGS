@@ -292,9 +292,8 @@ body{
     width: 100%;
 }
 .cards__components {
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap:61px;
     padding: 0 0 225px;
 }

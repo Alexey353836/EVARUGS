@@ -71,7 +71,7 @@
         line-height: 0px;
     }
     .cards__components {
-        flex-direction: column;
+      grid-template-columns: 1fr;
         padding: 0 0 124px;
     }
     .card__img{
