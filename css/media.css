@@ -59,6 +59,24 @@
         font-size: 15px;
         line-height: 18px;
     }
+
+    /* Cards */
+    .cards__title {
+        font-size: 40px;
+        line-height: 46.59px;
+        margin-bottom: 46px;
+    }
+    .cards__title span{
+        font-size: 45px;
+        line-height: 0px;
+    }
+    .cards__components {
+        flex-direction: column;
+        padding: 0 0 124px;
+    }
+    .card__img{
+        height: 190px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -132,5 +150,33 @@
     /* Jero button */
     .hero__button{
         text-align: center;
+    }
+
+    /* Cards */
+    .cards__container {
+       padding: 0 10px;
+    }
+    .cards__title {
+        font-size: 25px;
+        line-height: 23.59px;
+        margin-bottom: 46px;
+    }
+    .cards__title span{
+        font-size: 30px;
+        line-height: 0px;
+    }
+    .cards__components {
+        flex-direction: column;
+        padding: 0 0 103px;
+    }
+    .card__img{
+        height: 179px;
+    }
+    .card__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .card__subtitle {
+        font-size: 16px;
     }
 }

@@ -173,3 +173,49 @@ body{
     color: rgba(115, 115, 115, 1);
 }
 
+/* Card */
+.card {
+    max-width: 344px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.card__img{
+    background:url(../img/card-1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 242px;
+}
+.card__text {
+    padding: 30px 22px 22px;
+    background-color:rgba(255, 255, 255, 1);
+}
+.card__title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.card__subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(118, 118, 118, 1);
+    letter-spacing: 2px;
+}
+@media screen and (max-width:1200px) {
+    .card__img{
+        height: 190px;
+    }
+}
+@media screen and (max-width:700px) {
+    .card__img{
+        height: 179px;
+    }
+    .card__title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+

@@ -3,9 +3,11 @@
     --transition-focus: .1s;
     --scale-active:scale(0.96);
     --color-gradient:linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    --color-gradient-2:linear-gradient(0deg, #B90160 2.23%, #2E3192 99.51%);
     --color:rgba(0, 0, 0, 1);
     --color-witeMain: rgba(255, 255, 255, 1);
     --color-pink:rgb(225, 0, 255);
+   
 }
 html{
     box-sizing: border-box;
@@ -258,6 +260,89 @@ body{
     border-radius: 5px;
     transition: var(--transition-focus);
 }
+
+/* Cards */
+.cards {
+    /* background: url(../img/cards-background.png) 0 100% /757px no-repeat; */
+    background:  url(../img/hero-2.png) 0 100%/600px no-repeat,
+                 url(../img/hero-2.png) 30% 100%/200px no-repeat,
+                 url(../img/hero-2.png) 43% 80%/400px no-repeat;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.cards__container {
+    max-width: 1154px;
+    padding: 0 87px;
+}
+.cards__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.cards__title span{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    color: rgb(46, 49, 146) ;
+}
+.cards__background{
+    width: 100%;
+}
+.cards__components {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:61px;
+    padding: 0 0 225px;
+}
+.card {
+    max-width: 344px;
+    border-radius:10px;
+    overflow: hidden;
+    border:#B90160 solid 2px;
+    box-shadow: 0px 10px 30px 0px;
+}
+.cards__card{
+    max-width: 100%;
+}
+.card__img {
+    /* background:url(../img/card-1.jpg); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 242px;
+}
+.card__img-1 {
+    background:url(../img/card-1.jpg) center/cover no-repeat;
+}
+.card__img-2 {
+    background:url(../img/card-2.jpg) center /cover no-repeat;
+}
+.card__img-3 {
+    background:url(../img/card-3.jpg) center /cover no-repeat;
+}
+.card__text {
+    padding: 30px 22px 22px;
+    background-color:rgb(255, 252, 252);
+}
+.card__title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.card__subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(118, 118, 118, 1);
+    letter-spacing: 2px;
+}
+
+
 
 
 
