@@ -412,7 +412,7 @@ body{
 }
 
 /* Footer */
-.footer__container {
+/* .footer__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -488,7 +488,7 @@ body{
     border-radius:5px;
     cursor:auto; 
     transition: var(--transition-focus);
-}
+} */
 
 
 
