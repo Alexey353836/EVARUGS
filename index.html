@@ -15,14 +15,14 @@
         <div class="container-main header__container">
             <div class="header__contact-phones">
                 <img class="header__icon-contact-phones" src="img/phone.svg" alt="фото фона">
-                <p class="header__box-nambers">
+                <div class="header__box-nambers">
                     <a href="tel:2922929" >292-29-29</a>
                     <a href="tel:3333333" >333-33-33</a>
-                </p>
+                </div>
             </div>
             <div class="header__your-city">
-                <form class="city" action="chernivtsi.html">
-                    <button type="submit"><img src="img/city.svg" alt="найти город" class="header__city-img"></button>
+                <form class="city" action="index.html">
+                    <img src="img/city.svg" alt="найти город" class="header__city-img">
                     <input type="text" placeholder="Найти город">
                 </form>
             </div>
@@ -78,41 +78,47 @@
             </h2>
             <div class="cards__background">
                 <div class="cards__components">
-                    <div class="card cards__card">
-                        <div class="card__img card__img-1"></div>
+                    <div class="card">
+                        <img src="img/card-1.jpg" alt="материал">
                         <div class="card__text">
-                            <h3 class="card__title">
-                                МАТЕРИАЛ
-                            </h3>
-                            <p class="card__subtitle">
-                                Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.
-                            </p>
+                            <div class="card__title">
+                                <h3 > материал</h3>
+                            </div>
+                            <div class="card__subtitle">
+                                <p>
+                                    Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.
+                                </p>
+                            </div>
                         </div>
-                   </div>
-                   <div class="card cards__card">
-                    <div class="card__img card__img-2"></div>
-                    <div class="card__text">
-                        <h3 class="card__title">
-                            ОТЛИЧИЯ
-                        </h3>
-                        <p class="card__subtitle">
-                            Резиновые коврики загибаются и лезут на педали. EVA коврики такого не допустят! Специальные липучки держат его в одном положении. При желании, для водителя устанавливается подпятник из рельефного алюминия.
-                        </p>
+                     </div>
+                    <div class="card">
+                        <img src="img/card-2.jpg" alt="отличия">
+                        <div class="card__text">
+                            <div class="card__title" >
+                                <h3>отличия</h3>
+                            </div>
+                           <div class="card__subtitle">
+                                <p >
+                                    Резиновые коврики загибаются и лезут на педали. EVA коврики такого не допустят! Специальные липучки держат его в одном положении. При желании, для водителя устанавливается подпятник из рельефного алюминия.
+                                </p>
+                           </div>
+                           
+                        </div>
                     </div>
-               </div>
-               <div class="card cards__card">
-                <div class="card__img card__img-3"></div>
-                <div class="card__text">
-                    <h3 class="card__title">
-                        РАСЦВЕТКА
-                    </h3>
-                    <p class="card__subtitle">
-                        Автомобильные коврики EVA можно заказать и в индивидуальных размерах и в разных цветах, которые комбинируется на выбор покупателя с такими же цветами окантовочной полипропиленовой ременной ленты.
-                    </p>
+                    <div class="card">
+                        <img src="img/card-3.jpg" alt="расцветка">
+                        <div class="card__text">
+                            <div class="card__title">
+                                <h3 >расцветка</h3>
+                            </div>
+                             <div class="card__subtitle">
+                                <p>
+                                    Автомобильные коврики EVA можно заказать и в индивидуальных размерах и в разных цветах, которые комбинируется на выбор покупателя с такими же цветами окантовочной полипропиленовой ременной ленты.
+                                </p>
+                             </div>  
+                        </div>
+                    </div>
                 </div>
-            </div>
-           
-       </div>
             </div>
         </div>
     </div>
@@ -186,6 +192,22 @@
                 </form>
                 
             </div>
+        </div>
+    </div>
+
+    <!-- Application form -->
+    <div class="application-form">
+        <div class="application-form__container">
+            <form action="index.html"  class="form">
+                <h1 class="form__title">
+                    форма  заявки
+                </h1>
+                <input type="text" placeholder="Ваш город">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш e-mail">
+                <button class="btn" type="reset">Очистеть</button>
+                <button class="btn" type="submit">Отправить</button>
+            </form>
         </div>
     </div>
 
