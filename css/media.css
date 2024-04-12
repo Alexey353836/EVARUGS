@@ -138,9 +138,9 @@
         line-height: 21px;
     }
     /* Hero block */
-.hero__block-flex{
-    justify-content: center;
-}
+    .hero__block-flex{
+        justify-content: center;
+    }
     .hero__block-flex::after{
        display: none;
     }
@@ -200,18 +200,14 @@
         padding: 63px 18px 20px;
         border-radius:20px;
     }
-    .sliders-card__img {
-        top: -65px;
-        width: 120px;
-    }
     .sliders-card__description {
-        font-size: 14px;
-        font-weight: 300;
+        /* font-size: 14px; */
+        /* font-weight: 300;
         line-height: 18px;
         text-align: center;
         letter-spacing: 1px;
-        margin-bottom: 21px;
-    }
+        margin-bottom: 21px;*/
+    } 
 
     /* Footer */
     .footer__container {

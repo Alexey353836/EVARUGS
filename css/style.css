@@ -380,10 +380,10 @@ body{
 }
 .sliders-card__img {
     position: absolute;
-    top: -80px;
+    top: -120px;
     left: 50%;
     transform: translateX(-50%);
-    width: 140px;
+    width: 200px;
 }
 .sliders-card__description {
     font-size: 18px;
