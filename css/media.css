@@ -105,9 +105,12 @@
     .header__icon-contact-phones{
       display: none;
     }
-    .city button{
+    .header__city-img{
         display: none;
     }
+    /* .city button{
+        display: none;
+    } */
     .city input{
         text-align: center;
         font-size: 16px;
@@ -200,13 +203,13 @@
     }
 
     /* Slider */
-    .sliders-card {
+    /* .sliders-card {
         position: relative;
         background-color:var(--background-color);
         max-width: 536px;
         padding: 63px 18px 20px;
         border-radius:20px;
-    }
+    } */
 
     /* Footer */
     .footer__container {
@@ -230,5 +233,13 @@
     .footer__subtitle{
         text-align: center;
         font-size: 12px;
+    }
+
+     /* Form */
+     .form {
+        padding: 20px 10px;
+    }
+    .form__title {
+        font-size: 20px;
     }
 }
