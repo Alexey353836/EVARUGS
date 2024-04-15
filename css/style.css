@@ -342,7 +342,7 @@ body.lock{
 /* Slider*/
 .offer__slider {
     max-width: 600px;
-    margin: 50px auto 50px;
+    margin: 50px auto 0px;
     padding: 0 10px;
     transform: translateY(-50px);
 }
@@ -384,16 +384,16 @@ body.lock{
     position: relative;
     background-color:var(--background-color);
     max-width: 600px;
-    padding: 120px 41px 20px;
+    padding: 100px 41px 20px;
     border-radius:20px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .sliders-card__img {
     position: absolute;
-    top: -180px;
+    top: -130px;
     left: 50%;
     transform: translateX(-50%);
-    width: 300px;
+    width: 200px;
 }
 .sliders-card__description {
     font-size: 18px;
@@ -427,7 +427,7 @@ body.lock{
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     column-gap:10px;
-    padding: 100px 149px 60px;
+    padding: 40px 149px 60px;
     background: url(../img/footersvg.svg) 5% 20% / 110px no-repeat,
                 url(../img/footersvg.svg) 90% 10% / 233px no-repeat;
 }
