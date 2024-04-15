@@ -73,23 +73,9 @@
         height: 190px;
     }
 
-    /* Slider */
-    .slider__container {
-    row-gap:100px;
-    background:var(--color-gradient);
-    padding: 110px 20px 72px;
-    }
-    .sliders-card {
-        max-width: 536px;
-        width: 100%;
-    }
-    .slider__card-hide{
-        display: none;
-    }
-
     /* Footer */
     .footer__container {
-        padding: 98px 10px 40px;
+        padding: 40px 10px 40px;
     }
     .footer__box-3 input{
         width: auto;
@@ -108,9 +94,6 @@
     .header__city-img{
         display: none;
     }
-    /* .city button{
-        display: none;
-    } */
     .city input{
         text-align: center;
         font-size: 16px;
@@ -125,7 +108,7 @@
 
     /* Hero */
     .hero__container {
-        padding: 26px 0px 53px;
+        padding: 26px 10px 53px;
     }
     .hero__top {
         justify-content: center;
@@ -202,20 +185,12 @@
         font-size: 16px;
     }
 
-    /* Slider */
-    /* .sliders-card {
-        position: relative;
-        background-color:var(--background-color);
-        max-width: 536px;
-        padding: 63px 18px 20px;
-        border-radius:20px;
-    } */
-
     /* Footer */
     .footer__container {
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 30px;
+        padding: 0px 10px 40px;
     }
     .footer__box-1, .footer__box-2, .footer__box-3{
         display: flex;
