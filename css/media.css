@@ -167,17 +167,12 @@
         flex-direction: column;
         padding: 0 0 103px;
     }
-    .card__img{
-        height: 179px;
-    }
     .card__title {
         font-size: 20px;
         margin-bottom: 10px;
     }
     .card__title h3 {
         font-size: 19px;
-        font-weight: 700;
-        text-align: left;
         margin-bottom: 10px;
         text-transform: uppercase;
     }

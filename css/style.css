@@ -9,7 +9,11 @@
     --color-pink:rgb(225, 0, 255);
     --color:rgba(0, 0, 0, 1);
     --background-color:rgba(255, 255, 255, 1);
-   
+    --color-red-main:#D4145A;
+    --color-blue-main:#3d5cf5;
+    --color-green:#086718;
+    --color-brown:#704807;
+    --color-crimson:#9106a9;
 }
 html{
     box-sizing: border-box;
@@ -38,7 +42,7 @@ ul{
     margin: 0;
 }
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     margin: 0;
     background-color: var(--background-color);
@@ -98,7 +102,7 @@ body.lock{
     display: flex;
     align-items:center;
     gap: 12px;
-    max-width: max-content;
+    max-width: 400px;
 }
 .header__icon-contact-phones{
     width: 20px;
@@ -112,7 +116,9 @@ body.lock{
 .header__box-nambers a{
     color:#fff;
     font-size: 18px;
-   transition: var(--transition-duration);
+    transition: var(--transition-duration);
+    padding: 5px;
+
 }
 .header__box-nambers a:active{
     transform: scale(0.9)
@@ -312,20 +318,22 @@ body.lock{
     box-shadow: 0px 0px 20px 1px;
     background-color:#fff;
     outline: #fff solid 1px;
+    padding: 10px;
 }
 .card img{
     display: block;
     height: 242px;
     object-fit: cover;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .card__text {
-    padding: 30px 22px 22px;
+    padding: 30px 12px 22px;
     background-color:rgb(255, 252, 252); 
 }
 .card__title h3 {
     font-size: 25px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -333,10 +341,9 @@ body.lock{
     font-size: 18px;
     font-weight: 300;
     line-height: 20px;
-    text-align: left;
+    text-align: center;
     color: rgba(118, 118, 118, 1);
     letter-spacing: 2px;
-   
 }
 
 /* Slider*/
@@ -384,31 +391,39 @@ body.lock{
     position: relative;
     background-color:var(--background-color);
     max-width: 600px;
-    padding: 100px 41px 20px;
+    padding: 220px 41px 20px;
     border-radius:20px;
     margin-top: 0px;
 }
 .sliders-card__img {
+    display: block;
     position: absolute;
     top: -130px;
     left: 50%;
     transform: translateX(-50%);
-    width: 200px;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    outline: #B90160 solid 10px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
 .sliders-card__description {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 21px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    line-height: 25px;
     margin-bottom: 21px;
+    /* color:var(--color-witeMain); */
 
     height: 120px;
     overflow-y: auto;
 }
 .sliders-card__dividing {
-    width: 130px;
-    height: 2px;
+    max-width: 250px;
+    width: 100%;
+    height: 1px;
     background: linear-gradient(90.14deg, #D4145A 3.35%, #3D5BF5 91.43%);
     margin: 0 auto 9px;
 }
@@ -417,7 +432,6 @@ body.lock{
     font-weight: 300;
     line-height: 15.23px;
     text-align: center;
-    color:rgba(142, 142, 142, 1);
     letter-spacing: 2px;
 }
 
@@ -434,7 +448,7 @@ body.lock{
 .footer__title {
     font-size: 14px;
     font-weight: 700;
-    line-height: 16.41px;
+    line-height: 20px;
     text-align: left;
     margin-bottom: 20px;
     text-transform: uppercase;

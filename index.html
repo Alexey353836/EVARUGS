@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <title>EVARUGS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -22,9 +21,9 @@
                     </div>
                 </div>
                 <div class="header__your-city">
-                    <form class="city" action="index.html">
+                    <form action="index.html"  autocomplete="off" method="get" class="city" action="index.html">
                         <img src="img/city.svg" alt="найти город" class="header__city-img">
-                        <input type="text" placeholder="Найти город">
+                        <input type="text" placeholder="Найти город" name="найти город 1">
                     </form>
                 </div>
                 <div class="header__visit-page">
@@ -141,11 +140,11 @@
                 </div>
                 <div class="offer__slider-wrapper">
                     <div id="slide-1"  class="offer__slide">
-                        <div class="sliders-card ">
-                            <img src="img/slider-1.jpg" alt="фото" class="sliders-card__img">
+                        <div class="sliders-card sliders-card_background-color-1">
+                            <img src="img/slider-4.jpg" alt="фото" class="sliders-card__img">
                             <div class="sliders-card__content">
                                 <p class="sliders-card__description">
-                                    Коврики супер!!! Качество на высшем уровне!!! Удачи и побольше заказов вам!!! Большое спасибо!
+                                    Коврики супер!!! Качество на высшем уровне!!! Побольше заказов вам!!! Большое спасибо!
                                 </p>
                                 <div class="sliders-card__dividing"></div>
                                 <p class="sliders-card__name">Константин В.</p>
@@ -153,8 +152,8 @@
                         </div>
                     </div>
                     <div id="slide-2"  class="offer__slide">
-                        <div class="sliders-card">
-                            <img src="img/slider-2.jpg" alt="фото" class="sliders-card__img">
+                        <div class="sliders-card sliders-card_background-color-2">
+                            <img src="img/slider-5.jpg" alt="фото" class="sliders-card__img">
                             <div class="sliders-card__content">
                                 <p class="sliders-card__description">
                                     Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.
@@ -165,8 +164,8 @@
                         </div>
                     </div>
                     <div id="slide-3"  class="offer__slide">
-                        <div class="sliders-card">
-                            <img src="img/slider-3.jpg" alt="фото" class="sliders-card__img">
+                        <div class="sliders-card sliders-card_background-color-3">
+                            <img src="img/slider-6.jpg" alt="фото" class="sliders-card__img">
                             <div class="sliders-card__content">
                                 <p class="sliders-card__description">
                                     Спасибо, все приехало, поставил. Результатом доволен, в машине супер! Заказывал на Ниссан.
@@ -178,7 +177,7 @@
                     </div>
                    <!-- box back -->
                     <div class="sliders-card offer__slide-img_box">
-                        <img src="img/slider-3.jpg" alt="фото" class="sliders-card__img">
+                        <img src="img/slider-4.jpg" alt="фото" class="sliders-card__img">
                         <div class="sliders-card__content">
                             <p class="sliders-card__description">
                                 Спасибо, все приехало, поставил. Результатом доволен, в машине супер! Заказывал на Ниссан.
@@ -189,8 +188,8 @@
                     </div>
                 </div>
                 </div>
-            </div>
         </div>
+       
 
         <!-- Footer -->
         <div class="footer">
@@ -219,9 +218,9 @@
                     <p class="footer__subtitle">
                         Индивидуальное изготовление EVA ковриков для вашего автомобиля
                     </p>
-                    <form class="footer-city" action="index.html">
+                    <form action="index.html" autocomplete="off" method="get" class="footer-city" action="index.html">
                         <!-- <button type="submit"><img src="img/city.svg" alt="найти город" class="header__city-img"></button> -->
-                        <input type="text" placeholder="Найти город">
+                        <input id="#" type="text" placeholder="Найти город" name="найти ваш город">
                     </form>
                     
                 </div>
@@ -231,15 +230,15 @@
         <!-- Application form -->
         <div id="form-1" class="application-form">
             <div class="application-form__container">
-                <form action="index.html" method="" enctype="multipart/form-data" class="form">
+                <form action="#" autocomplete="off" method="get" enctype="multipart/form-data" class="form">
                     <h1 class="form__title">
                         форма  заявки
                     </h1>
                     <input type="text" placeholder="Ваш город" name="city" value="">
-                    <input type="text" placeholder="Ваше имя" name="name" value="">
+                    <input type="text" placeholder="Ваше имя" name="user" value="">
                     <input type="email" placeholder="Ваш e-mail" name="e-mail" value="">
                     <textarea name="text"placeholder="Ваше сщщбщение (марка автомобиля, цвет ковриков, немер телефона)"></textarea>
-                    <button class="btn" type="reset">Очистеть</button>
+                    <button class="btn" type="reset">Очистить</button>
                     <button class="btn" type="submit">Отправить</button>
                     <button class="btn close-form" type="button">Закрыть</button>
                 </form>
